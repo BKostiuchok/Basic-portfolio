@@ -1,0 +1,197 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+#navbar {
+    margin: 0;
+    padding: 5px 0;
+    width: 100%;
+    height: 50px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: white;
+    box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.1);
+}
+
+#navbar ul {
+    display: flex;
+    margin: 10px 0 10px auto;
+    width: 55%;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+#navbar ul li a {
+    margin-left: 3px;
+    color: black;
+    opacity: 0.7;
+    font-size: 1.2rem;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover {
+    color: lightcoral;
+    opacity: 1;
+    text-decoration: underline ;
+    transition: all 0.15s;
+}
+
+#intro-section {
+    height: 300px;
+    background-image: url("code-2434271_1920.jpg");
+    background-size: cover;
+}
+
+#welcome-section {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.message {
+    display: flex;
+    margin: 20px;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.message img {
+    max-width: 100% ;
+}
+
+section{
+    margin-top: 1rem;
+    padding-top: 2rem;
+}
+.section-heading {
+    font-size: 2rem;
+    text-align: center;
+}
+
+#about-section {
+    background-color:#FAF8FA;
+}
+
+.about-container {
+    display: flex;
+    justify-content: center;
+}
+
+div.my-information {
+    display: block;
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+#skills-section {
+    background-color: black;
+    color: lightsteelblue;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+}
+
+.skill-information {
+    padding: 2rem;
+    text-align: center;
+}
+
+.skill-name {
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+}
+
+.skill-information progress {
+    background-color: lightsteelblue;
+    border: 1px solid lightsteelblue;
+    border-radius: 5px;
+}
+
+.skill-information progress::-webkit-progress-value {
+    background-color: lightsteelblue;
+    border-radius: 5px;
+}
+.skill-information progress::-webkit-progress-bar {
+    background-color: black;
+    border-radius: 5px;
+}
+
+.fa-html5{
+    opacity: 95%;
+}
+.fa-css3{
+    opacity: 95%;
+}
+.fa-js{
+    opacity: 75%;
+}
+.fa-react{
+    opacity: 65%;
+}
+.fa-angular{
+    opacity: 55%;
+}
+.fa-bootstrap{
+    opacity: 45%;
+}
+.fa-php{
+    opacity: 35%;
+}
+.fa-python{
+    opacity: 35%;
+}
+
+.image-box img {
+    width: 400px;
+
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.projects-container .image-box {
+    margin: 5px;
+}
+
+.image-box a {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+#contacts-section {
+    margin-top: 50px;
+    padding: 50px;
+    background-color: black;
+    color: lightsteelblue;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#contacts-section a {
+    margin-right: 10px;
+    color: lightsteelblue;
+    text-decoration: none;
+
+}
